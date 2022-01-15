@@ -220,12 +220,7 @@ background-image: url(images/Circle\ design.svg);
 .various-font{
     display: flex;
 }
-.fab{
-    width: 32px;
-    height: 32px;
-    font-size: 1.6em;
-    margin-top: 17px;
-}
+
 /* --------------------
 ---------Media query for mobile display------
 ----------------- */
