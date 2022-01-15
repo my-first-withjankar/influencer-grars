@@ -11,8 +11,12 @@ body{
 /*--------------------------
  Header style sheets 
  --------------------------*/
+ header{
+     margin-top: 40px;
+     margin-bottom: 50px;
+ }
  .container{
-     max-width: 1300px;
+     max-width: 1200px;
      margin: 0 auto;
      padding: 0 30px;
  }
@@ -86,43 +90,55 @@ background-image: url(images/Circle\ design.svg);
     /* border: 1px solid; */
     height: 110px;
     align-items: center;
-    margin-top: 79px;
+    margin-top: 100px;
+    margin-bottom: 50px;
 }
 .logo img{
     width: 111px;
     height: 26px;
 }
+.products{
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+}
 .section-title{
     font-size: 28px;
     /* border: 1px solid; */
     text-align: center;
-    margin-bottom: 32px;
+    margin-bottom: 50px;
 }
 .items-photo img{
   width: 335px; 
   height: 269px; 
+  padding: 25px 0 0 26px;
 }
  .items{
-     border: 1px solid;
-     box-shadow: 10px 10px ;
+    width: 367.34px;
+    height: 498.63px;
+    /* border: 1px solid; */
+    box-shadow: 10px 10px 5px #c4b6b63b;
+
  }  
 
 .items-name{
     font-size: 28px;
     margin-top: 22px;
     margin-bottom: 10px;
+    margin-left: 26px;
 }
 .items-price{
     font-size: 24px ;
+    margin-left: 26px;
 }
 .rating{
     display: flex;
     margin-top: 10px;
     margin-bottom: 12px;
+    margin-left: 26px;
 }
 .filled-star{
     font-size: 16px;
-    color: #FB8200;    
+    color: #FB8200;  
 }
 .empty-star{
     font-size: 16px;
@@ -132,4 +148,5 @@ background-image: url(images/Circle\ design.svg);
     font-size: 14px;
     color: #787885;
     width: 200px;
+    margin-left: 26px;
 }
