@@ -232,3 +232,25 @@ background-image: url(images/Circle\ design.svg);
     }
     
 }
+@media only screen and (min-width: 688px) and (max-width:992px) {
+     .logo-album{
+        display:none;
+    }
+    nav{
+        display: inline;
+    }
+    .main-title{
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .navigation{
+       margin-left: 85px;
+    }
+    .banner{
+        display: inline;
+    }
+    .products{
+        grid-template-columns: repeat(2, 2fr);
+    }
+    
+}
