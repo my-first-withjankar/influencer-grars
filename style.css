@@ -260,13 +260,14 @@ background-image: url(images/Circle\ design.svg);
     .channel{
         
         grid-template-columns: repeat(2, 1fr);
+    }
     
 }
 /* ---------------------
 -----tablet mood----------
 ----------------------- */
 @media only screen and (min-width: 688px) and (max-width:992px) {
-     .logo-album{
+    .logo-album{
         display:none;
     }
     nav{
@@ -285,4 +286,6 @@ background-image: url(images/Circle\ design.svg);
     .products{
         grid-template-columns: repeat(2, 2fr);
     }
-    }
+}
+    
+    
