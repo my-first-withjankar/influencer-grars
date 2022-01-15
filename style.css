@@ -19,6 +19,7 @@ body{
      max-width: 1200px;
      margin: 0 auto;
      padding: 0 30px;
+    /* background-color: #bebeda; */
  }
 nav{
     display: flex;
@@ -160,7 +161,33 @@ background-image: url(images/Circle\ design.svg);
     padding-top: 52px;
     color: #E02C6D;
     
+    
 }    
+.channel img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-left: 20px;
+}
+.headings{
+    font-size: 25px;
+    margin: 20px 0;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.channel a{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 700;
+}
+.channel{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+   align-items: center;
+    grid-row-gap: 25px;
+    margin-bottom: 40px;
+    /* box-shadow: 5px 5px 10px gray; */
+}
     
 
 /* --------------------------
@@ -230,8 +257,14 @@ background-image: url(images/Circle\ design.svg);
     .products{
         grid-template-columns: repeat(1, 1fr);
     }
+    .channel{
+        
+        grid-template-columns: repeat(2, 1fr);
     
 }
+/* ---------------------
+-----tablet mood----------
+----------------------- */
 @media only screen and (min-width: 688px) and (max-width:992px) {
      .logo-album{
         display:none;
@@ -252,5 +285,4 @@ background-image: url(images/Circle\ design.svg);
     .products{
         grid-template-columns: repeat(2, 2fr);
     }
-    
-}
+    }
