@@ -157,6 +157,9 @@ background-image: url(images/Circle\ design.svg);
 .see-more{
     display: flex;
     justify-content: flex-end;
+    padding-top: 52px;
+    color: #E02C6D;
+    
 }    
     
 
@@ -191,4 +194,41 @@ background-image: url(images/Circle\ design.svg);
     height: 32px;
     font-size: 1.6em;
     margin-top: 17px;
+}
+/* Media query */
+@media only screen and (max-width:688px) {
+    .navigation, .logo-album{
+        display:none;
+    }
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .main-title{
+        white-space: nowrap;
+        text-align: center;
+    }
+    .banner{
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
+    .banner-left h1{
+        font-size: 28px;
+    }
+    .banner-left p{
+        font-size: 14px;
+
+    }
+    .banner-right img{
+        width: 257px;
+        display: 100%;
+        background-image: none;
+        margin: 30px 0;
+    }
+    
+    .products{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
 }
